@@ -1,0 +1,8 @@
+.dashboardWrapper{
+    display: flex;  
+}
+.main {
+    padding: 0px 20px;
+    flex:1;
+
+}

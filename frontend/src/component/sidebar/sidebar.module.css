@@ -1,0 +1,47 @@
+.sidebarWrapper {
+    background-color: #1e293b;
+    width: 200px;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: blod;
+    margin-bottom: 20px;
+}
+
+.menuItem {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: backgroun 0.2 ease-in-out;
+}
+
+.menuItem:hover {
+    background-color: #334155;
+    /* slate-700 */
+}
+
+.active {
+    background-color: #2563eb;
+    /* blue-600 */
+    font-weight: bold;
+}
+
+.icon {}
+
+.sidebarWrapper ul {
+    list-style: "none";
+    padding: 0;
+}
+
+.sidebarWrapper ul li {
+    cursor: pointer;
+    margin: 10px 0px;
+}
